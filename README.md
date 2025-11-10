@@ -59,5 +59,10 @@ or
 
 ---
 
+## 📜 License
+This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
+
+---
+
 > ⭐ Star the repo if you support accessible, gamified learning on TON!
 
