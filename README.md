@@ -1,10 +1,10 @@
-# 🎓 ClinkDrop — Gamified Learning on TON
+# ClinkDrop — Gamified Learning on TON
 
 A decentralized learning platform built as a **Telegram Mini App**, rewarding users with **TON tokens and NFTs** for completing interactive courses and quizzes.  
 
 ---
 
-## 🚀 Overview
+## Overview
 
 **ClinkDrop** empowers users to learn blockchain and Web3 concepts through gamified challenges.  
 Built on **The Open Network (TON)**, the platform combines:
@@ -15,7 +15,7 @@ Built on **The Open Network (TON)**, the platform combines:
 
 ---
 
-## 🧠 Problem
+## Problem
 
 Traditional e-learning lacks real incentives and ownership of progress.  
 Learners invest effort but gain no tangible proof of skills or achievements.
@@ -44,7 +44,7 @@ Learners invest effort but gain no tangible proof of skills or achievements.
 
 ---
 
-## 🔗 Live Demo
+## 🔗 Live Demo ( will add soon )
 
 🌐 [Open Telegram Mini App](#)  
 or  
