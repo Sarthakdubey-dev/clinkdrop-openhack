@@ -1,7 +1,7 @@
 {
-  "url": "http://localhost:3000",
+  "url": "https://openhack-beta.vercel.app/",
   "name": "TON Quiz DApp",
-  "iconUrl": "http://localhost:3000/icon.svg",
-  "termsOfUseUrl": "http://localhost:3000/terms",
-  "privacyPolicyUrl": "http://localhost:3000/privacy"
+  "iconUrl": "https://openhack-beta.vercel.app//icon.svg",
+  "termsOfUseUrl": "https://openhack-beta.vercel.app//terms",
+  "privacyPolicyUrl": "https://openhack-beta.vercel.app//privacy"
 }
