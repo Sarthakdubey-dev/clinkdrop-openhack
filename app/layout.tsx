@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { TonConnectProvider } from "@/components/ton-connect-provider"
+import { TelegramProvider } from "@/components/telegram-provider"
 import "./globals.css"
 
 const _geist = Geist({ subsets: ["latin"] })
@@ -38,10 +39,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script src="https://telegram.org/js/telegram-web-app.js" async></script>
+      </head>
       <body className={`font-sans antialiased`}>
-        <TonConnectProvider>
-          {children}
-        </TonConnectProvider>
+        <TelegramProvider>
+          <TonConnectProvider>
+            {children}
+          </TonConnectProvider>
+        </TelegramProvider>
         <Analytics />
       </body>
     </html>

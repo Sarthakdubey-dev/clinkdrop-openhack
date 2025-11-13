@@ -5,12 +5,23 @@ import { Card } from "@/components/ui/card"
 import { LogOut, Coins, TrendingUp } from "lucide-react"
 import QuizCard from "./quiz-card"
 
+interface TelegramUser {
+  id: number
+  first_name: string
+  last_name?: string
+  username?: string
+  language_code?: string
+  is_premium?: boolean
+  photo_url?: string
+}
+
 interface QuizDashboardProps {
   walletAddress: string
   totalRewards: number
   userScores: Record<number, number>
   onStartQuiz: (quizId: number) => void
   onDisconnect: () => void
+  telegramUser?: TelegramUser | null
 }
 
 const QUIZ_CATEGORIES = [
@@ -62,6 +73,7 @@ export default function QuizDashboard({
   userScores,
   onStartQuiz,
   onDisconnect,
+  telegramUser,
 }: QuizDashboardProps) {
   const completedQuizzes = Object.keys(userScores).length
   const completionPercentage = (completedQuizzes / QUIZ_CATEGORIES.length) * 100
@@ -74,7 +86,7 @@ export default function QuizDashboard({
           <div>
             <h1 className="text-4xl font-bold text-foreground mb-2">Dashboard</h1>
             <p className="text-muted-foreground">
-              {walletAddress.slice(0, 6)}...{walletAddress.slice(-4)}
+              {telegramUser ? `Welcome, ${telegramUser.first_name}!` : `${walletAddress.slice(0, 6)}...${walletAddress.slice(-4)}`}
             </p>
           </div>
           <Button onClick={onDisconnect} variant="outline" className="gap-2 w-full md:w-auto bg-transparent">
