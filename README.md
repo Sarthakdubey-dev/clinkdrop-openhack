@@ -48,7 +48,7 @@ Learners invest effort but gain no tangible proof of skills or achievements.
 
 🌐 [Open Telegram Mini App](#)  
 or  
-💻 [Web Demo (Vercel)]((https://openhack-beta.vercel.app/))
+💻 [Web Demo (Vercel)](https://openhack-beta.vercel.app)
 
 ---
 
