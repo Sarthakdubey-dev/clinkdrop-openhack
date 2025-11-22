@@ -46,7 +46,7 @@ Learners invest effort but gain no tangible proof of skills or achievements.
 
 ## 🔗 Live Demo ( will add soon )
 
-🌐 [Open Telegram Mini App](#)  
+🌐 [Open Telegram Mini App](#https://t.me/ClinkDrop_bot)  
 or  
 💻 [Web Demo (Vercel)](https://openhack-beta.vercel.app)
 
