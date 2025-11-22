@@ -12,23 +12,23 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "TON Quiz DApp",
   description: "Gamified learning platform integrated with Telegram Mini App",
-  generator: "v0.app",
+  generator: "clinkdrop",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/clinkdop_TON_light.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/clinkdop_TON_dark.png",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/icon.svg",
+        url: "/clinkdop_TON.png",
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/clinkdop_TON.png",
   },
 }
 

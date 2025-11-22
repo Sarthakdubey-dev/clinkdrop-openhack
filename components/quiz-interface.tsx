@@ -187,9 +187,12 @@ export default function QuizInterface({ quizId, onComplete, onBack }: QuizInterf
   }
 
   const handleSubmit = () => {
-    const calculatedScore = userAnswers.reduce((acc, answer, index) => {
-      return acc + (answer === questions[index].correctAnswer ? 1 : 0)
-    }, 0)
+    let calculatedScore = 0
+    userAnswers.forEach((answer, index) => {
+      if (answer !== null && answer === questions[index].correctAnswer) {
+        calculatedScore += 1
+      }
+    })
     setScore(calculatedScore)
     setShowResults(true)
   }
